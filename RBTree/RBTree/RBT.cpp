@@ -116,8 +116,8 @@ public:
 			}
 		}
 		_head->_parent->color = black;
-		_head->_right = leftMost();
-		_head->_left = rightMost();
+		_head->_right = rightMost();
+		_head->_left = leftMost();
 		return true;
 	}
 	Node* leftMost()
